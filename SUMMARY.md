@@ -5,6 +5,7 @@
 ## 📚 Matières
 
 * [🔌 Réseautique](matieres/reseautique/README.md)
+  * [Modèle OSI](matieres/reseautique/modele-osi.md)
   * [420-118-AT || Initiation aux réseaux](matieres/reseautique/420-118-at-or-or-initiation-aux-reseaux.md)
   * [420-128-AT || Interconnexion de réseaux](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/README.md)
     * [Routeur dynamique](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/routeur-dynamique.md)
