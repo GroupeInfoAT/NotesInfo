@@ -112,8 +112,16 @@ Couche de session: Établissement de la connexion entre le serveur et le client
 * Traduction de données
 * Liée à la couche d'application
 
+{% hint style="info" %}
+Couche de présentation: Le serveur encrypte et compresse le code transmis
+{% endhint %}
+
 ### Application
 
 * Couche d'hôte
 * Spécifique à chaque application
 * Contenu de la communication (ex. partage de fichier, transfert de page web, appel vocal, etc.)
+
+{% hint style="info" %}
+Couche d'application: Le navigateur demande une page web
+{% endhint %}
