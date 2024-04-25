@@ -17,6 +17,7 @@
   * [420-127-AT || Systèmes d'exploitation](matieres/maintenance/420-127-at-or-or-systemes-dexploitation.md)
   * [420-121-AT || Soutien aux utilisateurs](matieres/maintenance/420-121-at-or-or-soutien-aux-utilisateurs/README.md)
     * [Rôles, responsabilités et outils pour le Support Technique](matieres/maintenance/420-121-at-or-or-soutien-aux-utilisateurs/roles-responsabilites-et-outils-pour-le-support-technique.md)
+    * [Logiciel](matieres/maintenance/420-121-at-or-or-soutien-aux-utilisateurs/logiciel.md)
 * [📊 Mathématique](matieres/mathematique/README.md)
   * [201-115-AT || Mathématiques appliquées à l'informatique](matieres/mathematique/201-115-at-or-or-mathematiques-appliquees-a-linformatique.md)
   * [201-146-AT || Géométrie appliquée aux jeux vidéo](matieres/mathematique/201-146-at-or-or-geometrie-appliquee-aux-jeux-video.md)
