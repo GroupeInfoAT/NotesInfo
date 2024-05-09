@@ -1,6 +1,8 @@
+---
+description: Sébastien Perron (09-05-2024)
+---
+
 # WI-FI
-
-
 
 ## Niveau de signal
 
@@ -114,3 +116,40 @@ Se connecte à un point d'accès
 
 Toutes les radios peuvent s'interconnecter et établir le chemin de sortie le plus efficace. Chaque radio peut servir de lien en amont si elle se situe plus près d'un point de sortie du réseau maillé.
 
+## Générations
+
+{% tabs %}
+{% tab title="A/B/G" %}
+2.4 GHz seulement, jusqu'à 54Mbps en SISO[^1]
+{% endtab %}
+
+{% tab title="N" %}
+2.4 et 5GHz jusqu'à 150Mbps par radio, 600Mbps en MIMO[^2]
+{% endtab %}
+
+{% tab title="AC" %}
+5GHz jusqu'à 1.7Gbps en MIMO[^3]
+{% endtab %}
+
+{% tab title="AX" %}
+5GHz jusqu'à 2.4Gbps en MIMO[^4]
+{% endtab %}
+
+{% tab title="7" %}
+6GHz jusqu'à 40Gbps en MIMO[^5]
+{% endtab %}
+{% endtabs %}
+
+## Wi-Fi 6/AX
+
+Sépare son canal en sous-canaux pour communiquer avec plusieurs appareils simultanément
+
+[^1]: Single Input Single Output
+
+[^2]: Multiple Input Multiple Output
+
+[^3]: Multiple Input Multiple Output
+
+[^4]: Multiple Input Multiple Output
+
+[^5]: Multiple Input Multiple Output
