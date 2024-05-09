@@ -56,3 +56,61 @@ Wi-FI (diffère selon leur la génération):
 * 6GHz
 * 45GHz
 * 60GHz
+
+Canaux: Une division d'une bande fréquence. On peut ici penser à des stations de radio, des canaux télévisés ou des points d'accès sans fil.
+
+Il est défini par sa fréquence centrale et par sa largeur. 10,20 ou 40 MHz en 2.4 GHz. 20,40 ou 80 MHz en 5GHz.
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>2.4 GHz (20MHz) - PowerPoint de Alexandre Arsenault-Jetté</p></figcaption></figure>
+
+## Authentification
+
+### SSID&#x20;
+
+Divisé en deux types principaux.
+
+* ESSID -> Nom du réseau
+* BSSID -> MAC du point d'accès
+
+### Balise
+
+Lorsqu'un point d'accès (AP) annonce son réseau. Même lorsqu'un réseau est masqué, il annonce son BSSID
+
+### Ouvert
+
+Sans mot de passe, trafic non encrypté
+
+### "Ouvert amélioré"
+
+Sans mot de passe, utilise "OWE" pour encrypter le trafic entre le point d'accès et chaque client
+
+### Portail captif
+
+Sans mot de passe, authentification web
+
+### Clé prépartagée
+
+Mot de passe partagé par tous les clients du réseau, comme votre réseau domestique
+
+### (EAP) Protocole d’authentification étendu &#x20;
+
+Utilise un serveur distant d'authentification pouvant authentifier un client par un certificat ou par un nom d'utilisateur et mot de passe, comme le wifi "CAT"
+
+### Séquence d'authentification
+
+<figure><img src="../../../.gitbook/assets/wpa-4-way-handshake-workflow.png" alt=""><figcaption><p>4-way handshake - Source: <a data-mention href="../../../sources.md#wi-fi">#wi-fi</a></p></figcaption></figure>
+
+## Rôles
+
+### Point d'accès (AP)
+
+Diffuse un réseau, accueille des clients
+
+### Station
+
+Se connecte à un point d'accès
+
+### Maillé (WDS)
+
+Toutes les radios peuvent s'interconnecter et établir le chemin de sortie le plus efficace. Chaque radio peut servir de lien en amont si elle se situe plus près d'un point de sortie du réseau maillé.
+
