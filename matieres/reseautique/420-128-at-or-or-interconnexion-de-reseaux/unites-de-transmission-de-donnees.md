@@ -8,7 +8,7 @@ description: Sébastien Perron 03/05/2024
 
 **Paquet Ethernet :** Données transmises à la couche physique, contient une trame.
 
-[**Trame Ethernet:**](#user-content-fn-1)[^1] Données transmises à la couche de liaison de données. Mécanisme déterminant le chemin à emprunter dans le domaine de diffusion par adresse MAC de source et destination.
+**Trame Ethernet:** Données transmises à la couche de liaison de données. Mécanisme déterminant le chemin à emprunter dans le domaine de diffusion par adresse MAC de source et destination.
 
 **Paquet IP:** Données transmises à la couche réseau. Mécanisme déterminant le chemin à emprunter à la couche réseau (possiblement sortant du domaine de diffusion).
 
@@ -29,5 +29,3 @@ description: Sébastien Perron 03/05/2024
 * Une par domaine de diffusion
 {% endtab %}
 {% endtabs %}
-
-[^1]: Test d'annotage
