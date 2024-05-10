@@ -16,14 +16,14 @@ Permet d'entrer en mode de configuration (config)# depuis le mode d'exécution
 configure terminal
 ```
 
-Permet de sortir du mode de configuration (config)# et retourner au mode d'exécution #&#x20;
+Permet de sortir du mode de configuration (config)# et retourner au mode d'exécution # (Mode config)
 
 <pre><code><strong>end
 </strong></code></pre>
 
-Permet d'exécuter une commande à l'intérieur du mode de configuration
+Permet d'exécuter une commande à l'intérieur du mode de configuration (Mode config)
 
-<pre><code><strong>(config)# do [commande d'exécution]
+<pre><code><strong>do [commande d'exécution]
 </strong></code></pre>
 
 #### !!! WRITE MEMORY !!!
@@ -34,10 +34,10 @@ Permet de sauvegarder la configuration pour la préserver suite à un redémarra
 write memory
 ```
 
-Permet de déterminer le nom de l'appareil
+Permet de déterminer le nom de l'appareil (Mode configuration)
 
 ```
-(config)# hostname
+hostname
 ```
 
 Permet de retirer une ligne de configuration
@@ -52,68 +52,70 @@ no [commande de configuration]
 
 #### Entrer dans la configuration d'un interface
 
-Permet d'entrer dans la configuration d'une interface, que ce soit un port ou un VLAN
+Permet d'entrer dans la configuration d'une interface, que ce soit un port ou un VLAN (Mode config)
 
 ```
-(config)# interface [type_interface] [num_module]/[num_port]
+interface [type_interface] [num_module]/[num_port]
 ```
 
 #### Crée une interface de routeur
 
-Permet de configurer un port comme une interface de routeur
+Permet de configurer un port comme une interface de routeur (Mode config-inter)
 
 ```
-(config-inter)# no switchport
+no switchport
 ```
 
-#### Désactiver une interface
+#### Désactiver une interface&#x20;
+
+(Mode config-inter)
 
 ```
-(config-inter)# shutdown
+shutdown
 ```
 
 ### VLAN
 
 #### Crée un VLAN
 
-Permet de déclarer/créer un VLAN
+Permet de déclarer/créer un VLAN (Mode config)
 
 ```
-(config)# vlan [num_vlan]
+vlan [num_vlan]
 ```
 
 #### Nommer un VLAN
 
-Permet de nommer un vlan
+Permet de nommer un vlan (Mode config-vlan)
 
 ```
-(config-vlan)# name [nom_vlan]
+name [nom_vlan]
 ```
 
 #### Faire un TRUNK
 
-Permet de spécifier que le port doit étiqueter les VLANs sur le trafic sortant et tenir compte de celui du trafic entrant.
+Permet de spécifier que le port doit étiqueter les VLANs sur le trafic sortant et tenir compte de celui du trafic entrant. (Mode config-inter)
 
-<pre><code><strong>(config-inter)# switchport trunk encapsulation dot1q
-</strong>(config-inter)# switchport mode trunk
-(config-inter)# switchport trunk allowed vlan [num_vlans] # Un ou plusieurs numéro de vlan
+<pre><code><strong>switchport trunk encapsulation dot1q
+</strong>switchport mode trunk
+switchport trunk allowed vlan [num_vlans] # Un ou plusieurs numéro de vlan
 </code></pre>
 
 #### Faire un ACCESS
 
-Permet de spécifier que le port ne doit pas étiqueter le VLAN sur le trafic sortant et entrant.
+Permet de spécifier que le port ne doit pas étiqueter le VLAN sur le trafic sortant et entrant. (Mode config-inter)
 
 ```
-(config-inter)# switchport mode access
-(config-inter)# switchport access vlan [num_vlan]
+switchport mode access
+switchport access vlan [num_vlan]
 ```
 
 #### Spécifier le VLAN natif
 
-Permet de spécifier un VLAN natif sur un port qui étiquette d'autres VLANs
+Permet de spécifier un VLAN natif sur un port qui étiquette d'autres VLANs (Mode config-inter)
 
 ```
-(config-inter)# switchport trunk native vlan [num_vlan]
+switchport trunk native vlan [num_vlan]
 ```
 
 ## Couche 3
@@ -122,24 +124,24 @@ Permet de spécifier un VLAN natif sur un port qui étiquette d'autres VLANs
 
 #### Assigner une adresse IP statique
 
-Permet de configurer une adresse IP sur une interface, que ce soit un VLAN ou un port de routeur
+Permet de configurer une adresse IP sur une interface, que ce soit un VLAN ou un port de routeur (Mode config-inter)
 
 ```
-(config-inter)# ip address [adresse_hote] [masque_sous_réseau ex: 255.255.255.0]
+ip address [adresse_hote] [masque_sous_réseau ex: 255.255.255.0]
 ```
 
 #### Assigner une route IP statique
 
-Permet de créer une route statique
+Permet de créer une route statique (Mode config)
 
 ```
-(config)# ip route [adresse_reseau] [masque_sous_réseau] [passerelle]
+ip route [adresse_reseau] [masque_sous_réseau] [passerelle]
 ```
 
 #### Activer les fonctionnalités de couche 3
 
-Permet d'activer les fonctionnalités de niveau 3
+Permet d'activer les fonctionnalités de niveau 3 (Mode config)
 
 ```
-(config)# ip routing
+ip routing
 ```
