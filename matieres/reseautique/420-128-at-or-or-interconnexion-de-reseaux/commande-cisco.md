@@ -8,6 +8,8 @@ Voici la documentation complète sur les appareils Cisco : [https://www.cisco.co
 
 Voici les commandes des appareils Cisco les plus utilisés:
 
+***
+
 ## Mode Configuration / Globales
 
 Permet d'entrer en mode de configuration (config)# depuis le mode d'exécution
@@ -46,6 +48,14 @@ Permet de retirer une ligne de configuration
 no [commande de configuration]
 ```
 
+Permet de voir une configuration chosit
+
+```
+show [nom_configuration exemple: running-config]
+```
+
+***
+
 ## Couche 2
 
 ### Interface
@@ -66,12 +76,12 @@ Permet de configurer un port comme une interface de routeur (Mode config-inter)
 no switchport
 ```
 
-#### Désactiver une interface&#x20;
+#### Activer une interface&#x20;
 
 (Mode config-inter)
 
 ```
-shutdown
+no shutdown
 ```
 
 ### VLAN
@@ -118,6 +128,8 @@ Permet de spécifier un VLAN natif sur un port qui étiquette d'autres VLANs (Mo
 switchport trunk native vlan [num_vlan]
 ```
 
+***
+
 ## Couche 3
 
 ### IP
@@ -127,7 +139,7 @@ switchport trunk native vlan [num_vlan]
 Permet de configurer une adresse IP sur une interface, que ce soit un VLAN ou un port de routeur (Mode config-inter)
 
 ```
-ip address [adresse_hote] [masque_sous_réseau ex: 255.255.255.0]
+ip address [adresse_hote] [masque_sous_reseau ex: 255.255.255.0]
 ```
 
 #### Assigner une route IP statique
@@ -135,7 +147,7 @@ ip address [adresse_hote] [masque_sous_réseau ex: 255.255.255.0]
 Permet de créer une route statique (Mode config)
 
 ```
-ip route [adresse_reseau] [masque_sous_réseau] [passerelle]
+ip route [adresse_reseau] [masque_sous_reseau] [passerelle]
 ```
 
 #### Activer les fonctionnalités de couche 3
@@ -145,3 +157,20 @@ Permet d'activer les fonctionnalités de niveau 3 (Mode config)
 ```
 ip routing
 ```
+
+### Routage Dynamique
+
+#### Création d'une instance OSPF (Mode config)
+
+```
+router ospf [num_instance]
+```
+
+#### Configurer les routes qui sont distribués (Mode config-router)
+
+```
+redistribute connected subnets
+network [adresse_reseau] [masque_sous_reseau] area 0.0.0.0
+```
+
+####
