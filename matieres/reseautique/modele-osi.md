@@ -14,13 +14,13 @@ Voici la documentation complète en anglais du modèle OSI: [lien](https://en.wi
 
 Voici la liste des couches en ordre:
 
-1. [#physique](modele-osi.md#physique "mention")
-2. [#liaison-de-donnees](modele-osi.md#liaison-de-donnees "mention")
-3. [#reseau](modele-osi.md#reseau "mention")
-4. [#transport](modele-osi.md#transport "mention")
-5. [#session](modele-osi.md#session "mention")
-6. [#presentation](modele-osi.md#presentation "mention")
-7. [#application](modele-osi.md#application "mention")
+1. [physique](modele-osi.md#physique "mention")
+2. [liaison-de-donnees](modele-osi.md#liaison-de-donnees "mention")
+3. [reseau](modele-osi.md#reseau "mention")
+4. [transport](modele-osi.md#transport "mention")
+5. [session](modele-osi.md#session "mention")
+6. [presentation](modele-osi.md#presentation "mention")
+7. [application](modele-osi.md#application "mention")
 
 ### Physique
 
