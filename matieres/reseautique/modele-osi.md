@@ -4,7 +4,7 @@ description: 17-04-2024 Sébastien Perron
 
 # Modèle OSI
 
-Voici la documentation complète en anglais du modèle OSI: [https://en.wikipedia.org/wiki/OSI\_model](https://en.wikipedia.org/wiki/OSI\_model)
+Voici la documentation complète en anglais du modèle OSI: [lien](https://en.wikipedia.org/wiki/OSI\_model)
 
 ## Définition&#x20;
 
