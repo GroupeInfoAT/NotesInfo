@@ -31,6 +31,7 @@
   * [350-121-AT || Interactions en contexte professionnel](matieres/autres/350-121-at-or-or-interactions-en-contexte-professionnel.md)
   * [420-131-AT || Gestion d'un centre d'aide](matieres/autres/420-131-at-or-or-gestion-dun-centre-daide.md)
   * [Test Page](matieres/autres/test-page.md)
+  * [Test](matieres/autres/test.md)
 
 ***
 
