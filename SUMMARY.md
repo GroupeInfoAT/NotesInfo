@@ -27,7 +27,6 @@
   * [201-115-AT || Mathématiques appliquées à l'informatique](matieres/mathematique/201-115-at-or-or-mathematiques-appliquees-a-linformatique.md)
   * [201-146-AT || Géométrie appliquée aux jeux vidéo](matieres/mathematique/201-146-at-or-or-geometrie-appliquee-aux-jeux-video.md)
 * [Autres](matieres/autres/README.md)
-  * [test](matieres/autres/test.md)
   * [420-116-AT || Projet d'études](matieres/autres/420-116-at-or-or-projet-detudes.md)
   * [350-121-AT || Interactions en contexte professionnel](matieres/autres/350-121-at-or-or-interactions-en-contexte-professionnel.md)
   * [420-131-AT || Gestion d'un centre d'aide](matieres/autres/420-131-at-or-or-gestion-dun-centre-daide.md)
