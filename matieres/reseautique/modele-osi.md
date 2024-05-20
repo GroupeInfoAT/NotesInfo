@@ -6,7 +6,7 @@ description: 17-04-2024 Sébastien Perron
 
 Voici la documentation complète en anglais du modèle OSI: [lien](https://en.wikipedia.org/wiki/OSI\_model)
 
-## Définition&#x20;
+## Définition
 
 **OSI (Open Systems Interconnection)** : Modèle théorique décrivant les composantes et la démarche de communication entre plusieurs appareils informatiques mis en réseau
 
@@ -14,13 +14,15 @@ Voici la documentation complète en anglais du modèle OSI: [lien](https://en.wi
 
 Voici la liste des couches en ordre:
 
-1. [physique](modele-osi.md#physique "mention")
-2. [liaison-de-donnees](modele-osi.md#liaison-de-donnees "mention")
-3. [reseau](modele-osi.md#reseau "mention")
-4. [transport](modele-osi.md#transport "mention")
-5. [session](modele-osi.md#session "mention")
-6. [presentation](modele-osi.md#presentation "mention")
-7. [application](modele-osi.md#application "mention")
+1. [#physique](modele-osi.md#physique "mention")
+2. [#liaison-de-donnees](modele-osi.md#liaison-de-donnees "mention")
+3. [#reseau](modele-osi.md#reseau "mention")
+4. [#transport](modele-osi.md#transport "mention")
+5. [#session](modele-osi.md#session "mention")
+6. [#presentation](modele-osi.md#presentation "mention")
+7. [#application](modele-osi.md#application "mention")
+
+***
 
 ### Physique
 
@@ -49,7 +51,7 @@ Couche de liaison de données: Crée les trames et les transporte entre routeurs
 
 ### Réseau
 
-* Couche de médium de transport&#x20;
+* Couche de médium de transport
 * Cache de résolution d'adresse (ARP)
 * Paquets
 * Adressage et segmentation IP
@@ -74,7 +76,7 @@ ICMP (Internet Control Message Protocol)
 {% endtab %}
 
 {% tab title="UDP" %}
-UDP (User Diagram Protocol)&#x20;
+UDP (User Diagram Protocol)
 
 * Ne nécessite pas de session
 * Sans garantie de livraison
