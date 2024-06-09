@@ -11,7 +11,7 @@
   * [2️⃣ Interconnexion de réseaux](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/README.md)
     * [Unités de transmission de données](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/unites-de-transmission-de-donnees.md)
     * [WI-FI](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/wi-fi.md)
-    * [Routeur dynamique](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/routeur-dynamique.md)
+    * [Routage dynamique](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/routeur-dynamique.md)
     * [Filtrage réseau](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/filtrage-reseau.md)
     * [Commande MikroTik](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/commande-mikrotik.md)
     * [Commande Cisco](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/commande-cisco.md)
