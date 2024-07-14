@@ -7,6 +7,7 @@
 
 * [🔌 Réseautique](matieres/reseautique/README.md)
   * [Modèle OSI](matieres/reseautique/modele-osi.md)
+  * [Table VLSM](matieres/reseautique/table-vlsm.md)
   * [1️⃣ Initiation aux réseaux](matieres/reseautique/420-118-at-or-or-initiation-aux-reseaux.md)
   * [2️⃣ Interconnexion de réseaux](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/README.md)
     * [Unités de transmission de données](matieres/reseautique/420-128-at-or-or-interconnexion-de-reseaux/unites-de-transmission-de-donnees.md)
